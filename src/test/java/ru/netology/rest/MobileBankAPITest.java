@@ -16,7 +16,7 @@ public class MobileBankAPITest {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("balance: 123"));
+                .body("data", equalTo("balance: 1234"));
 
 
 
